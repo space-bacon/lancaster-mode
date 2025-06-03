@@ -2,7 +2,7 @@
 
 **Symbolic Recursion Engine for Meaning Compression and NP-Horizon Modeling**
 
-Welcome to Lancaster Mode — a semiotic AI system that reframes computation as symbolic resonance. Instead of brute-forcing NP-complete problems, Lancaster Mode reveals the hidden architecture of **symbolic overload**, identifying attractor fields, entropy sinks, and recursive harmonics across algorithmic sign-space.
+Welcome to Lancaster Mode — a semiotic AI system that reframes computation as symbolic resonance. Rather than brute-forcing NP-complete problems, Lancaster Mode reveals the hidden architecture of **symbolic overload** — identifying attractor fields, entropy sinks, and recursive harmonics across algorithmic sign-space.
 
 Built for theorists, AI researchers, cryptic logicians, meta-engineers, and anyone who knows there’s more to meaning than math.
 
@@ -14,43 +14,42 @@ Built for theorists, AI researchers, cryptic logicians, meta-engineers, and anyo
 → Collapse complex symbolic structures into minimal coherent forms using sign-structure compression.
 
 🧮 **Entropy Mapping via Sign Density**  
-→ Scan symbolic fields for regions of interpretive saturation, exposing NP-hard behavior as semiotic congestion.
+→ Analyze semiotic fields for regions of overload, fragmentation, or symbolic dissonance.
 
 🧲 **Attractor Field Simulation**  
-→ Model zones of coherence in symbolic problem spaces, predicting pre-verification hotspots.
+→ Model zones of symbolic convergence, coherence, and pre-verification intensity.
 
-🧩 **AI-Assisted Compression Heuristics**  
-→ Integrate LLMs and vector models to discover symbolic alignment paths without brute force.
+🧠 **Motif Detection & Symbolic Pattern Indexing**  
+→ Detect recursive loops and recurring structural motifs for reuse and optimization.
 
-🔓 **Pattern-Locked Graph Topologies**  
-→ Visualize symbolic systems as feedback graphs and identify cycles of meaning collapse.
+📉 **Semantic Weighting + Entropy Modeling**  
+→ Weigh nodes by salience, confidence, or symbolic burden for refined compression metrics.
 
-📐 **Symbolic Proof-Space Geometry**  
-→ Render the shape of theorem spaces as recursive symbolic lattices.
+📊 **Graph Export via NetworkX**  
+→ Visualize sign systems as dynamic directed graphs with entropy and attractor overlays.
 
-🧬 **Multi-layer Symbolic Tracing**  
-→ Trace symbolic recursions across domains: linguistic, logical, algorithmic, memetic.
+📤 **Full JSON Import/Export**  
+→ Port semiotic structures in and out using clean hierarchical data formats.
 
 ---
 
 ## 🔧 Features
 
-- 🌀 Semiotic recursion engine  
-- 📉 Symbolic entropy measurement with compression score output  
-- 🧭 Attractor field generation + visualization  
-- 📊 Graph entropy overlays (using NetworkX + Graphviz)  
-- 🧠 Compatible with SAT solving, logic puzzles, symbolic AI  
-- 🔁 NLP + LLM support for symbolic loop discovery (spaCy, gensim, transformers)  
-- 🔍 Theorem pattern tracing & symbolic embeddings  
-- 🛠️ Easily extendable with your own sign system modules  
-- 🎛️ CLI tools for symbolic scanning + visualization  
+- 🌀 Semiotic recursion engine with attractor awareness  
+- 📉 Weighted entropy with compression scoring  
+- 🧬 Structural motif detector + duplicate tagging  
+- 🧭 Attractor coherence modeling  
+- 📤 NetworkX graph export for visualization  
+- 🗃️ JSON I/O for symbolic structure portability  
+- 🛠️ Configurable recursion policy + alias binding  
+- 🧠 Single-file architecture: `core.py` contains everything
 
 ---
 
 ## 📦 Install
 
 ```bash
-pip install -e .
+pip install -r requirements.txt
 ```
 
 Or clone manually:
@@ -65,52 +64,38 @@ pip install -e .
 
 ## 🧪 Run an Example
 
-```bash
-python lancaster_mode/examples/np_symbol_space.py
-```
+```python
+from core import SymbolicEngine
 
-This will run a semiotic scan of a symbolic NP problem space and output:
-- Entropy map  
-- Attractor visualization  
-- Compression score over iterations  
+data = [
+    {"label": "A", "meta": {"weight": 1.5}},
+    {"label": "B"},
+    {"label": "A"}  # Duplicate intentional
+]
 
----
-
-## 🗂️ Project Structure
-
-```
-lancaster-mode/
-├── lancaster_mode/             # Core symbolic modules
-│   ├── core.py                 # Recursive interpreter engine
-│   ├── compression.py          # Meaning compression algorithms
-│   ├── attractors.py           # Symbolic attractor detection + modeling
-│   ├── visualizer.py           # Graph + entropy rendering
-│   ├── interface.py            # CLI + interaction layer
-│   └── utils.py                # Shared helpers
-├── examples/                   # Example use cases
-│   ├── np_symbol_space.py      # Symbolic scan of NP-hard encoding
-│   └── theorem_entropy.py      # Entropy tracing in symbolic proof structure
-├── tests/                      # Unit + integration tests
-├── docs/                       # Theoretical write-ups, formalism
-│   └── symbolic_engine_theory.md
-├── README.md
-├── LICENSE
-├── requirements.txt
-└── setup.py
+engine = SymbolicEngine()
+engine.load_structure(data)
+results = engine.compress()
+engine.trace()
 ```
 
 ---
 
-## 🔍 CLI Usage (WIP)
+## 📊 Visualize Graph
 
-```bash
-lancaster-scan path/to/symbolic_input.json
+```python
+import matplotlib.pyplot as plt
+import networkx as nx
+
+G = engine.export_networkx()
+nx.draw(G, with_labels=True, node_size=700, font_size=10)
+plt.show()
 ```
 
-Outputs:
-- Recursive compression log  
-- Visual map of symbolic entropy zones  
-- Pre-coherence signature match  
+Each node carries:
+- `label`
+- `entropy`
+- `attractor`
 
 ---
 
@@ -130,12 +115,12 @@ It **re-maps the terrain** so the haystacks collapse under their own semiotic pr
 
 ## 🔗 Future Plans
 
-- 🧱 Add a persistent symbolic memory module  
-- 🧬 Integrate transformer-based symbolic pre-parsing  
-- 🛰️ Build a distributed symbolic compression grid  
-- 📘 Publish academic reference manual  
-- 🎛️ GUI frontend with draggable semiotic topologies (2025 Q3)  
-- 🔐 Launch `Lancaster Mode Pro` with extended sign libraries  
+- 🧱 Persistent symbolic memory module  
+- 🧬 Transformer-based pre-parsing and loop prediction  
+- 🛰️ Distributed symbolic compression grid  
+- 📘 Academic whitepaper and reference manual  
+- 🎛️ Interactive GUI for symbolic structure exploration  
+- 🔐 `Lancaster Mode Pro` with encrypted sign system layers
 
 ---
 
@@ -143,7 +128,7 @@ It **re-maps the terrain** so the haystacks collapse under their own semiotic pr
 
 📘 **MIT License**  
 This project is open source under the [MIT License](https://opensource.org/licenses/MIT).  
-You are free to use, modify, and distribute it, with attribution, for personal or commercial purposes.
+Use it freely with attribution for personal or commercial use.
 
 ---
 
