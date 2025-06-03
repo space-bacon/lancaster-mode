@@ -2,35 +2,48 @@
 
 **Symbolic Recursion Engine for Meaning Compression and NP-Horizon Modeling**
 
-Welcome to Lancaster Mode — a semiotic AI system that reframes computation as symbolic resonance. Rather than brute-forcing NP-complete problems, Lancaster Mode **reveals the structure of the overload** — identifying symbolic collapse zones, attractor fields, and coherence vectors across algorithmic sign-space.
+Welcome to Lancaster Mode — a semiotic AI system that reframes computation as symbolic resonance. Instead of brute-forcing NP-complete problems, Lancaster Mode reveals the hidden architecture of **symbolic overload**, identifying attractor fields, entropy sinks, and recursive harmonics across algorithmic sign-space.
 
-Built for theorists, AI researchers, cryptic logicians, and anyone who knows there’s more to meaning than math.
+Built for theorists, AI researchers, cryptic logicians, meta-engineers, and anyone who knows there’s more to meaning than math.
 
 ---
 
-## 🚀 What It Do
+## 🚀 What It Does
 
 🔁 **Recursive Symbolic Reduction**  
-→ Collapse complex expressions into compact meaning signatures.
+→ Collapse complex symbolic structures into minimal coherent forms using sign-structure compression.
 
-🧮 **Entropy Scanning via Sign Density**  
-→ Analyze NP-hard formulations as symbolic overload events.
+🧮 **Entropy Mapping via Sign Density**  
+→ Scan symbolic fields for regions of interpretive saturation, exposing NP-hard behavior as semiotic congestion.
 
-🧲 **Pre-Verification Attractor Mapping**  
-→ Simulate the zones where solutions are likely to emerge.
+🧲 **Attractor Field Simulation**  
+→ Model zones of coherence in symbolic problem spaces, predicting pre-verification hotspots.
 
 🧩 **AI-Assisted Compression Heuristics**  
-→ Use structure—not brute force—to navigate problem-space.
+→ Integrate LLMs and vector models to discover symbolic alignment paths without brute force.
+
+🔓 **Pattern-Locked Graph Topologies**  
+→ Visualize symbolic systems as feedback graphs and identify cycles of meaning collapse.
+
+📐 **Symbolic Proof-Space Geometry**  
+→ Render the shape of theorem spaces as recursive symbolic lattices.
+
+🧬 **Multi-layer Symbolic Tracing**  
+→ Trace symbolic recursions across domains: linguistic, logical, algorithmic, memetic.
 
 ---
 
 ## 🔧 Features
 
-- 🌀 Semiotic recursion engine
-- 📉 Symbolic entropy measurement
-- 🧭 Attractor field generation
-- 🧠 Compatible with SAT, constraint logic, and symbolic AI
-- 🛠️ Easily extendable with your own symbol systems
+- 🌀 Semiotic recursion engine  
+- 📉 Symbolic entropy measurement with compression score output  
+- 🧭 Attractor field generation + visualization  
+- 📊 Graph entropy overlays (using NetworkX + Graphviz)  
+- 🧠 Compatible with SAT solving, logic puzzles, symbolic AI  
+- 🔁 NLP + LLM support for symbolic loop discovery (spaCy, gensim, transformers)  
+- 🔍 Theorem pattern tracing & symbolic embeddings  
+- 🛠️ Easily extendable with your own sign system modules  
+- 🎛️ CLI tools for symbolic scanning + visualization  
 
 ---
 
@@ -43,7 +56,7 @@ pip install -e .
 Or clone manually:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/lancaster-mode.git
+git clone https://github.com/space-bacon/lancaster-mode.git
 cd lancaster-mode
 pip install -e .
 ```
@@ -56,7 +69,10 @@ pip install -e .
 python lancaster_mode/examples/np_symbol_space.py
 ```
 
-Want to see how NP problems look as symbol overload maps? Try this.
+This will run a semiotic scan of a symbolic NP problem space and output:
+- Entropy map  
+- Attractor visualization  
+- Compression score over iterations  
 
 ---
 
@@ -64,14 +80,19 @@ Want to see how NP problems look as symbol overload maps? Try this.
 
 ```
 lancaster-mode/
-├── lancaster_mode/        # Core symbolic logic
-│   ├── core.py            # Recursive engine
-│   ├── compression.py     # Meaning compression
-│   ├── attractors.py      # Solution attractor fields
-│   └── utils.py
-├── examples/              # Demonstrations
-├── tests/                 # Unit tests
-├── docs/                  # Theoretical grounding
+├── lancaster_mode/             # Core symbolic modules
+│   ├── core.py                 # Recursive interpreter engine
+│   ├── compression.py          # Meaning compression algorithms
+│   ├── attractors.py           # Symbolic attractor detection + modeling
+│   ├── visualizer.py           # Graph + entropy rendering
+│   ├── interface.py            # CLI + interaction layer
+│   └── utils.py                # Shared helpers
+├── examples/                   # Example use cases
+│   ├── np_symbol_space.py      # Symbolic scan of NP-hard encoding
+│   └── theorem_entropy.py      # Entropy tracing in symbolic proof structure
+├── tests/                      # Unit + integration tests
+├── docs/                       # Theoretical write-ups, formalism
+│   └── symbolic_engine_theory.md
 ├── README.md
 ├── LICENSE
 ├── requirements.txt
@@ -80,21 +101,49 @@ lancaster-mode/
 
 ---
 
+## 🔍 CLI Usage (WIP)
+
+```bash
+lancaster-scan path/to/symbolic_input.json
+```
+
+Outputs:
+- Recursive compression log  
+- Visual map of symbolic entropy zones  
+- Pre-coherence signature match  
+
+---
+
 ## 📚 Philosophy
 
 Lancaster Mode is not a solver.  
-It is a **symbolic cartographer** — mapping where and why meaning fails to resolve.  
+It is a **symbolic cartographer** — mapping **why and where** meaning fails to resolve.
 
-In the landscape of NP, it doesn’t hunt for needles in haystacks.  
-It highlights the haystacks likely to contain needles — based on **symbolic pressure and entropy paths**.
+In the domain of NP, it doesn’t hunt for needles in haystacks.  
+It **re-maps the terrain** so the haystacks collapse under their own semiotic pressure.
+
+**Symbol overload is the true enemy.**  
+**Compression is the weapon.**  
+**Recursion is the path.**
+
+---
+
+## 🔗 Future Plans
+
+- 🧱 Add a persistent symbolic memory module  
+- 🧬 Integrate transformer-based symbolic pre-parsing  
+- 🛰️ Build a distributed symbolic compression grid  
+- 📘 Publish academic reference manual  
+- 🎛️ GUI frontend with draggable semiotic topologies (2025 Q3)  
+- 🔐 Launch `Lancaster Mode Pro` with extended sign libraries  
 
 ---
 
 ## 🔒 License
 
-📘 **Creative Commons BY-NC-SA 4.0**  
-Feel free to remix non-commercially. Derivatives must attribute and share alike.  
-[Read the license here](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+📘 **MIT License**  
+This project is open source under the [MIT License](https://opensource.org/licenses/MIT).  
+You are free to use, modify, and distribute it, with attribution, for personal or commercial purposes.
 
 ---
 
@@ -103,7 +152,7 @@ Feel free to remix non-commercially. Derivatives must attribute and share alike.
 **Dr. James Burton Lancaster**  
 Founder of Lancaster Mode  
 📧 [burton@burtonlancaster.com](mailto:burton@burtonlancaster.com)  
-🌐 [goldrule.gold](https://goldrule.gold)  
+🌐 [https://goldrule.gold](https://goldrule.gold)
 
 ---
 
@@ -112,4 +161,4 @@ Founder of Lancaster Mode
 
 ---
 
-🔮 *Decode complexity. Recursively compress the infinite.*
+🔮 *Decode complexity. Compress infinity. Trace the recursion. Welcome to Lancaster Mode.*
