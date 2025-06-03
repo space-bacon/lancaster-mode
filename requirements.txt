@@ -1,0 +1,32 @@
+# Core scientific stack
+numpy>=1.21.0
+scipy>=1.7.0
+sympy>=1.9
+networkx>=2.6.0
+
+# Visualization and symbolic graph mapping
+matplotlib>=3.4.0
+seaborn>=0.11.0
+graphviz>=0.20.1
+pygraphviz>=1.10
+
+# Constraint solving & symbolic engines
+python-sat[pblib,aiger]>=0.1.7.dev8
+z3-solver>=4.12.2.0
+
+# Symbolic AI modeling
+gensim>=4.2.0
+scikit-learn>=1.0
+spacy>=3.5.0
+nltk>=3.6.7
+
+# Optional: Deep symbolic modeling and transformer-based reasoning
+transformers>=4.30.0
+torch>=2.0.0
+
+# Dev tools and structure
+ipython>=7.27.0
+jupyterlab>=3.2.0
+tqdm>=4.62.3
+rich>=13.3.0
+loguru>=0.6.0
