@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+htmlcov/
+coverage.xml
+.cache/
+.tox/
+
+# Build artifacts
+build/
+dist/
+*.tar.gz
+*.whl
+*.zip
+
+# Graphs / generated visuals
+*.pdf
+*.svg
+*.png
+*.dot
+*.gv
