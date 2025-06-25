@@ -137,7 +137,7 @@ Use it freely with attribution for personal or commercial use.
 **Dr. James Burton Lancaster**  
 Founder of Lancaster Mode  
 📧 [burton@burtonlancaster.com](mailto:burton@burtonlancaster.com)  
-🌐 [https://goldrule.gold](https://goldrule.gold)
+
 
 ---
 
