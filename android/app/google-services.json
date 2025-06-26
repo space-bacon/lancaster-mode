@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "848632634547",
+    "project_id": "lancaster-mode",
+    "storage_bucket": "lancaster-mode.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848632634547:android:5f9de9e7c18b932b7fe4c6",
+        "android_client_info": {
+          "package_name": "com.example.lancaster_mode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDCRNwGedBBEjRM7Bfgt7N7dCWf6Bxy1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
